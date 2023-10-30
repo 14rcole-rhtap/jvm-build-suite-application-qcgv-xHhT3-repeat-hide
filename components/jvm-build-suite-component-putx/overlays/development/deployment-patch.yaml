@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: jvm-build-suite-component-putx
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/rycole-appstudio/jvm-build-erru-tenant/jvm-build-suite-application-qcgv/jvm-build-suite-component-putx@sha256:2377283aaedb623e521ec21ab9ef7abbed6516c99404809d43a920a5213f02b9
+        name: hacbs-jvm-build-test-project
+        resources: {}
+status: {}
