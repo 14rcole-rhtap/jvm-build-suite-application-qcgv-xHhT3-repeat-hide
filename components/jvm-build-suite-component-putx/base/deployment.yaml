@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: jvm-build-suite-component-putx
     spec:
       containers:
-      - image: hacbs-jvm-build-test-project:latest
+      - image: quay.io/rycole-appstudio/jvm-build-erru-tenant/jvm-build-suite-application-qcgv/jvm-build-suite-component-putx@sha256:2377283aaedb623e521ec21ab9ef7abbed6516c99404809d43a920a5213f02b9
         name: hacbs-jvm-build-test-project
         ports:
         - containerPort: 8081
